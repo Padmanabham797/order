@@ -38,9 +38,5 @@ public class OrderController {
 
 
 
-    @GetMapping
-    public List<Order> getAllOrder() {
-
-        return service.getAllOrders();
-    }
+ 
 }

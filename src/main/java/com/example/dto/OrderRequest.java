@@ -1,7 +1,7 @@
 package com.example.dto;
 
 public class OrderRequest {
-
+    private double  productprice;
     private Long productId;
     private Integer quantity;
 
